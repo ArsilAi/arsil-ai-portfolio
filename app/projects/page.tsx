@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
+import FadeIn from "../components/FadeIn";
 
 export default function ProjectsPage() {
   return (
@@ -8,6 +9,7 @@ export default function ProjectsPage() {
 
       <main className="min-h-screen bg-black text-white">
 
+        <FadeIn>
         <section className="max-w-6xl mx-auto px-6 py-20">
 
           <h1 className="text-5xl font-bold mb-4">
@@ -114,6 +116,7 @@ export default function ProjectsPage() {
           </div>
 
         </section>
+        </FadeIn>
 
       </main>
 

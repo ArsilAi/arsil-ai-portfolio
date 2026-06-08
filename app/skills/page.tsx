@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
+import FadeIn from "../components/FadeIn";
 
 export default function SkillsPage() {
 return (
@@ -19,6 +20,7 @@ return (
 
     {/* Frontend */}
 
+    <FadeIn>
     <section className="grid md:grid-cols-3 gap-12 mb-24">
 
       <div>
@@ -64,10 +66,13 @@ return (
 
       </div>
 
+    
     </section>
+    </FadeIn>
 
     {/* Languages */}
 
+    <FadeIn>
     <section className="grid md:grid-cols-3 gap-12 mb-24">
 
       <div>
@@ -114,9 +119,10 @@ return (
       </div>
 
     </section>
-
+    </FadeIn>
     {/* AI / ML */}
 
+    <FadeIn>
     <section className="grid md:grid-cols-3 gap-12 mb-24">
 
       <div>
@@ -173,9 +179,10 @@ return (
       </div>
 
     </section>
-
+    </FadeIn>
     {/* Tools */}
 
+    <FadeIn>
     <section className="grid md:grid-cols-3 gap-12 mb-20">
 
       <div>
@@ -211,7 +218,7 @@ return (
       </div>
 
     </section>
-
+    </FadeIn>
   </main>
 
   <Footer />

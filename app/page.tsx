@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
+import FadeIn from "./components/FadeIn";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
         </section>
 
         {/* Featured Projects */}
+        <FadeIn>
         <section className="max-w-6xl mx-auto px-6 py-24">
 
           <div className="flex items-center justify-between mb-10">
@@ -133,86 +135,9 @@ export default function Home() {
           </div>
 
         </section>
+        </FadeIn>
 
-        {/* Skills */}
-       {/* Tech Stack */}
-<section className="max-w-6xl mx-auto px-6 py-24">
-
-<h2 className="text-4xl font-bold mb-12">
-  Tech Stack
-</h2>
-
-<div className="grid md:grid-cols-2 gap-8">
-
-  {/* Frontend */}
-  <div className="border border-slate-800 rounded-2xl p-8">
-
-    <h3 className="text-xl font-semibold mb-4">
-      Frontend
-    </h3>
-
-    <ul className="space-y-3 text-slate-400">
-      <li>Next.js</li>
-      <li>React</li>
-      <li>TypeScript</li>
-      <li>Tailwind CSS</li>
-      <li>HTML5 & CSS3</li>
-    </ul>
-
-  </div>
-
-  {/* Backend */}
-  <div className="border border-slate-800 rounded-2xl p-8">
-
-    <h3 className="text-xl font-semibold mb-4">
-      Backend
-    </h3>
-
-    <ul className="space-y-3 text-slate-400">
-      <li>Python</li>
-      <li>Node.js</li>
-      <li>REST APIs</li>
-    </ul>
-
-  </div>
-
-  {/* AI / ML */}
-  <div className="border border-slate-800 rounded-2xl p-8">
-
-    <h3 className="text-xl font-semibold mb-4">
-      AI / Machine Learning
-    </h3>
-
-    <ul className="space-y-3 text-slate-400">
-      <li>Machine Learning Fundamentals</li>
-      <li>Large Language Models</li>
-      <li>RAG Systems</li>
-      <li>LangChain</li>
-      <li>Ollama</li>
-    </ul>
-
-  </div>
-
-  {/* Database & Tools */}
-  <div className="border border-slate-800 rounded-2xl p-8">
-
-    <h3 className="text-xl font-semibold mb-4">
-      Database & Tools
-    </h3>
-
-    <ul className="space-y-3 text-slate-400">
-      <li>MySQL</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>VS Code</li>
-    </ul>
-
-  </div>
-
-</div>
-
-</section>
-
+       
       </main>
 
       <Footer />

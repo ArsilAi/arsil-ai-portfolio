@@ -1,13 +1,15 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
+import FadeIn from "../components/FadeIn";
+
 
 export default function AboutPage() {
 return (
 <> <Navbar />
 
-```
   <main className="min-h-screen">
 
+<FadeIn>    
     <section className="max-w-5xl mx-auto px-6 py-24">
 
       <h1 className="text-5xl font-bold mb-12">
@@ -66,6 +68,7 @@ return (
       </div>
 
     </section>
+    </FadeIn>
 
   </main>
 
