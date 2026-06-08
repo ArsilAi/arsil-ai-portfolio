@@ -78,7 +78,7 @@ export default function Home() {
             <div className="border border-slate-800 rounded-2xl p-6 hover:border-slate-600 transition">
 
               <h3 className="text-xl font-semibold mb-4">
-                AI Portfolio Website
+                Portfolio Website
               </h3>
 
               <p className="text-neutral-400 mb-6 leading-7">
