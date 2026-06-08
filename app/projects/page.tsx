@@ -27,7 +27,7 @@ export default function ProjectsPage() {
             <div className="card p-8">
 
               <h2 className="text-2xl font-bold mb-4">
-                AI Portfolio Website
+                 Portfolio Website
               </h2>
 
               <p className="text-neutral-400 mb-6 leading-7">
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
               </div>
 
               <a
-                href="https://github.com/ArsilAi"
+                href="https://github.com/ArsilAi/arsil-ai-portfolio"
                 target="_blank"
                 className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
@@ -74,7 +74,7 @@ export default function ProjectsPage() {
               </div>
 
               <a
-                href="https://github.com/ArsilAi"
+                href="https://github.com/ArsilAi/local-llm-chatbot"
                 target="_blank"
                 className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
               </div>
 
               <a
-                href="https://github.com/ArsilAi"
+                href="https://github.com/ArsilAi/pdf-question-answering-system"
                 target="_blank"
                 className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
