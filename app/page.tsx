@@ -25,7 +25,7 @@ export default function Home() {
             Software Systems.
           </h1>
 
-          <p className="max-w-3xl text-lg md:text-xl text-slate-400 leading-9 mb-10">
+          <p className="max-w-3xl text-lg md:text-xl text-neutral-400 leading-9 mb-10">
             I build AI-powered applications using Python, Next.js,
             Large Language Models, and Retrieval-Augmented Generation.
             My focus is creating practical software that solves
@@ -45,7 +45,7 @@ export default function Home() {
 
             <Link
               href="/about"
-              className="border border-slate-700 px-6 py-3 rounded-xl hover:border-white transition"
+              className="border border-neutral-800 px-6 py-3 rounded-xl hover:border-white transition"
             >
               About Me
             </Link>
@@ -81,7 +81,7 @@ export default function Home() {
                 AI Portfolio Website
               </h3>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 Professional portfolio built using Next.js,
                 TypeScript and Tailwind CSS.
               </p>
@@ -100,7 +100,7 @@ export default function Home() {
                 Local LLM Chatbot
               </h3>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 AI chatbot powered by Ollama and local language
                 models running directly on local hardware.
               </p>
@@ -119,7 +119,7 @@ export default function Home() {
                 PDF Q&A System
               </h3>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 RAG-based application that answers questions
                 from uploaded documents.
               </p>

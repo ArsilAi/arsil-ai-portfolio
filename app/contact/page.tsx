@@ -51,7 +51,7 @@ export default function ContactPage() {
               Contact Me
             </h1>
 
-            <p className="text-slate-400 mb-12">
+            <p className="text-neutral-400 mb-12">
               Interested in working together, discussing AI, or connecting professionally?
               Feel free to reach out.
             </p>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                 className="space-y-6"
               >
                 <div>
-                  <label className="block mb-2 text-sm text-slate-400">
+                  <label className="block mb-2 text-sm text-neutral-400">
                     Name
                   </label>
 
@@ -71,13 +71,13 @@ export default function ContactPage() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Your Name"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 outline-none"
+                    className="w-full bg-neutral-950 border border-neutral-800 rounded-xl px-4 py-3 outline-none"
                     required
                   />
                 </div>
 
                 <div>
-                  <label className="block mb-2 text-sm text-slate-400">
+                  <label className="block mb-2 text-sm text-neutral-400">
                     Email
                   </label>
 
@@ -86,13 +86,13 @@ export default function ContactPage() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="your@email.com"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 outline-none"
+                    className="w-full bg-neutral-950 border border-neutral-800 rounded-xl px-4 py-3 outline-none"
                     required
                   />
                 </div>
 
                 <div>
-                  <label className="block mb-2 text-sm text-slate-400">
+                  <label className="block mb-2 text-sm text-neutral-400">
                     Message
                   </label>
 
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder="Write your message..."
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 outline-none"
+                    className="w-full bg-neutral-950 border border-neutral-800 rounded-xl px-4 py-3 outline-none"
                     required
                   />
                 </div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
                 </button>
 
                 {status && (
-                  <p className="text-sm text-slate-400">
+                  <p className="text-sm text-neutral-400">
                     {status}
                   </p>
                 )}
@@ -126,7 +126,7 @@ export default function ContactPage() {
                 Contact Information
               </h2>
 
-              <div className="space-y-4 text-slate-400">
+              <div className="space-y-4 text-neutral-400">
                 <p>📧 arshilpathan546@gmail.com</p>
                 <p>💻 https://github.com/ArsilAi</p>
                 <p>📍 Ahmedabad, Gujarat, India</p>

@@ -8,12 +8,12 @@ return ( <nav className="border-b border-slate-800"> <div className="max-w-6xl m
         Arsil Khan
       </h1>
 
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-neutral-500">
         AI / ML Developer
       </p>
     </div>
 
-    <div className="flex items-center gap-8 text-sm text-slate-400">
+    <div className="flex items-center gap-8 text-sm text-neutral-400">
 
       <Link href="/" className="hover:text-white">
         Home

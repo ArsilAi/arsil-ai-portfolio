@@ -22,14 +22,14 @@ return (
           Arsil Khan
         </h2>
 
-        <p className="text-slate-400 leading-8 mb-6">
+        <p className="text-neutral-400 leading-8 mb-6">
           I am a Bachelor of Computer Applications (BCA) student at
           Gujarat University with a strong interest in Artificial
           Intelligence, Machine Learning, Large Language Models,
           and software development.
         </p>
 
-        <p className="text-slate-400 leading-8">
+        <p className="text-neutral-400 leading-8">
           My current focus is building practical applications using
           Python, Next.js, Retrieval-Augmented Generation (RAG),
           local LLMs, and modern web technologies. I enjoy solving
@@ -53,15 +53,15 @@ return (
           Bachelor of Computer Applications
         </h3>
 
-        <p className="text-slate-400 mt-3">
+        <p className="text-neutral-400 mt-3">
           Gujarat University
         </p>
 
-        <p className="text-slate-400 mt-2">
+        <p className="text-neutral-400 mt-2">
           Expected Graduation: 2027
         </p>
 
-        <p className="text-slate-400 mt-2">
+        <p className="text-neutral-400 mt-2">
           Current CGPA: 7.2
         </p>
 

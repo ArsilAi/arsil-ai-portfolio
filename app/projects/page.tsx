@@ -16,7 +16,7 @@ export default function ProjectsPage() {
             Projects
           </h1>
 
-          <p className="text-slate-400 mb-12">
+          <p className="text-neutral-400 mb-12">
             A collection of projects focused on AI, Machine Learning,
             and modern web development.
           </p>
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                 AI Portfolio Website
               </h2>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 Personal portfolio built with Next.js, TypeScript,
                 and Tailwind CSS featuring responsive design,
                 project showcase, and professional presentation.
@@ -46,7 +46,7 @@ export default function ProjectsPage() {
               <a
                 href="https://github.com/ArsilAi"
                 target="_blank"
-                className="inline-block border border-slate-700 px-5 py-2 rounded-lg hover:border-white"
+                className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
                 View GitHub
               </a>
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
                 Local LLM Chatbot
               </h2>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 Chat application powered by Ollama and local
                 language models capable of running AI models
                 directly on a local machine.
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
               <a
                 href="https://github.com/ArsilAi"
                 target="_blank"
-                className="inline-block border border-slate-700 px-5 py-2 rounded-lg hover:border-white"
+                className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
                 View GitHub
               </a>
@@ -90,7 +90,7 @@ export default function ProjectsPage() {
                 PDF Question Answering System
               </h2>
 
-              <p className="text-slate-400 mb-6 leading-7">
+              <p className="text-neutral-400 mb-6 leading-7">
                 Retrieval-Augmented Generation (RAG) application
                 that allows users to upload documents and ask
                 questions based on document content.
@@ -106,7 +106,7 @@ export default function ProjectsPage() {
               <a
                 href="https://github.com/ArsilAi"
                 target="_blank"
-                className="inline-block border border-slate-700 px-5 py-2 rounded-lg hover:border-white"
+                className="inline-block border border-neutral-800 px-5 py-2 rounded-lg hover:border-white"
               >
                 View GitHub
               </a>
